@@ -7,6 +7,10 @@ $(document).ready(function(){
 		} else {
 			$("#sdfinfo").show();
 			$("#sdfinfo").addClass("active");
+			$("#everything").css("z-index", "6");
+			$("#everything").css("background-color", "black");
+			$("#everything").css("opacity", "0.2");
+			$("#everything").removeClass("none");
 		}
 	});
 
@@ -18,6 +22,10 @@ $(document).ready(function(){
 		} else {
 			$("#sarinfo").show();
 			$("#sarinfo").addClass("active");
+			$("#everything").css("z-index", "6");
+			$("#everything").css("background-color", "black");
+			$("#everything").css("opacity", "0.2");
+			$("#everything").removeClass("none");
 		}
 	});
 
@@ -28,6 +36,10 @@ $(document).ready(function(){
 		} else {
 			$("#fsainfo").show();
 			$("#fsainfo").addClass("active");
+			$("#everything").css("z-index", "6");
+			$("#everything").css("background-color", "black");
+			$("#everything").css("opacity", "0.2");
+			$("#everything").removeClass("none");
 		}
 	});
 
@@ -38,6 +50,10 @@ $(document).ready(function(){
 		} else {
 			$("#fsainfo").show();
 			$("#fsainfo").addClass("active");
+			$("#everything").css("z-index", "6");
+			$("#everything").css("background-color", "black");
+			$("#everything").css("opacity", "0.2");
+			$("#everything").removeClass("none");
 		}
 	});
 
@@ -48,6 +64,10 @@ $(document).ready(function(){
 		} else {
 			$("#turkeyinfo").show();
 			$("#turkeyinfo").addClass("active");
+			$("#everything").css("z-index", "6");
+			$("#everything").css("background-color", "black");
+			$("#everything").css("opacity", "0.2");
+			$("#everything").removeClass("none");
 		}
 	});
 
@@ -59,6 +79,9 @@ $(document).ready(function(){
 		} else {
 			$("#alnusrainfo").show();
 			$("#alnusrainfo").addClass("active");
+			$("#everything").css("z-index", "6");
+			$("#everything").css("opacity", "0.2");
+			$("#everything").removeClass("none");
 		}
 	});
 
@@ -69,8 +92,9 @@ $(document).ready(function(){
 		} else {
 			$("#isisinfo").show();
 			$("#isisinfo").addClass("active");
+			$("#everything").css("z-index", "6");
+			$("#everything").css("opacity", "0.2");
+			$("#everything").removeClass("none");
 		}
 	});
-
-
 });
