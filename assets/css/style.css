@@ -1,0 +1,334 @@
+body {
+	background-color: black;
+}
+
+#title {
+	font-family: 'VT323', monospace;
+	position: relative;
+	font-size: 140px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+#map {
+	position: relative;
+	margin: auto;
+	width: 65%;
+	height: 80%;
+}
+
+#syria {
+	position: absolute;
+	width:25%;
+	height:65%;
+	background-color: #e62e00;
+	left: 5%;
+	top: 32%;
+	z-index: 3;
+}
+
+#moderate1 {
+	position: absolute;
+	width: 25%;
+	height: 15%;
+	background-color: #00802b;
+	left: 5%;
+	top: 16%;
+	z-index: 3;
+}
+
+#moderate2 {
+	position: absolute;
+	width: 30%;
+	height: 20%;
+	background-color: #00802b;
+	left: 31%;
+	top: 67%;
+	z-index: 3;
+}
+
+#kurds {
+	position: absolute;
+	width:90%;
+	height:15%;
+	left: 5%;
+	background-color: #cccc00;
+	top: 0%;
+	z-index: 3;
+}
+
+#turkey {
+	position: absolute;
+	width: 10%;
+	height:13%;
+	left: 15%;
+	background-color: #3366ff;
+	top: 0.25%;
+	border: 5px solid black;
+	z-index: 3;
+}
+
+#nusra {
+	position: absolute;
+	width: 13%;
+	height: 8%;
+	background-color: #8c1aff;
+	left: 6%;
+	top: 17%;
+	border: 5px solid black;
+	z-index: 4;
+}
+
+#isis {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	background-color: #808080;
+	top: 16%;
+	left: 31%;
+	z-index: 3;
+}
+
+#syria:hover {
+	position: absolute;
+	background-color: #ff1a1a;
+	cursor: pointer;
+}
+
+#moderate1:hover {
+	background-color: #33cc33;
+	cursor: pointer;
+}
+
+#moderate2:hover {
+	background-color: #33cc33;
+	cursor: pointer;
+}
+
+#kurds:hover {
+	background-color: #ffff00;
+	cursor: pointer;
+}
+
+#turkey:hover {
+	background-color: #3399ff;
+	cursor: pointer;
+}
+
+#nusra:hover {
+	background-color: #a64dff;
+	cursor: pointer;
+}
+
+#isis:hover {
+	background-color: #8585ad;
+	cursor: pointer;
+	content: "ISIS";
+}
+
+#sdf {
+	font-family: 'Bungee Inline', cursive;
+	margin: auto;
+	text-align: center;
+	font-size: calc(130%);
+	top: 25%;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+
+#rot {
+	font-family: 'Bungee Inline', cursive;
+	margin: auto;
+	text-align: center;
+	font-size: 100%;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	font-size: 15px;
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+
+#jan {
+	font-family: 'Bungee Inline', cursive;
+	margin: auto;
+	text-align: center;
+	font-size: calc(100%);
+	height: 100%;
+	width: 100%;
+	position: relative;
+	font-size: 12px;
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+
+#fsa1 {
+	font-family: 'Bungee Inline', cursive;
+	margin: auto;
+	text-align: center;
+	font-size: calc(100%);
+	top: 60%;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+
+#fsa2 {
+	font-family: 'Bungee Inline', cursive;
+	margin: auto;
+	text-align: center;
+	font-size: calc(130%);
+	top: 25%;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+
+#sar {
+	font-family: 'Bungee Inline', cursive;
+	margin: auto;
+	text-align: center;
+	font-size: 150%;
+	top: 25%;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+
+#isis-text {
+	font-family: 'Bungee Inline', cursive;
+	margin: auto;
+	text-align: center;
+	font-size: 140%;
+	top: 35%;
+	height: calc(100%);
+	width: calc(100%);
+	position: relative;
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+
+#sdf:hover {
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+
+#rot:hover {
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+
+#jan:hover {
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+
+#fsa1:hover {
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+
+#fsa2:hover {
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+
+#sar:hover {
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+
+#isis-text:hover {	
+	opacity: 1;
+	transition-duration: 0.3s;
+}
+
+#sdfinfo {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	top: 0%;
+	left: 25%;
+	top: 25%;
+	width: 40%;
+	height: 60%;
+	z-index: 1;
+    display: inherit;
+}
+
+#sarinfo {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	left: 25%;
+	top: 25%;
+	width: 40%;
+	height: 60%;
+	z-index: 1;
+    display: inherit;
+}
+
+#fsainfo {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	left: 25%;
+	top: 25%;
+	width: 40%;
+	height: 60%;
+	z-index: 1;
+    display: inherit;
+}
+
+#turkeyinfo {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	left: 25%;
+	top: 25%;
+	width: 40%;
+	height: 60%;
+	z-index: 1;
+    display: inherit;
+}
+
+#alnusrainfo {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	top: 0%;
+	left: 25%;
+	top: 25%;
+	width: 40%;
+	height: 60%;
+	z-index: 1;
+    display: inherit;
+}
+
+#isisinfo {
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	left: 25%;
+	top: 25%;
+	width: 40%;
+	height: 60%;
+	z-index: 1;
+    display: inherit;
+}
+
+.active {
+	z-index: 10;
+}
